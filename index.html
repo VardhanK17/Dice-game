@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Dicee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
@@ -11,14 +12,15 @@
 
     <div class="container">
       <h1>Refresh Me</h1>
-
+      <!-- <button class="btn" onClick="window.location.reload();">Refresh Page</button> -->
+      <i class="fa fa-refresh" id="btn" onClick="window.location.reload();"></i>
       <div class="dice">
-        <p>Blue Player</p>
+        <p>Player 1</p>
         <img class="img1" src="images/dice6.png">
       </div>
 
       <div class="dice">
-        <p>Red Player</p>
+        <p>Player 2</p>
         <img class="img2" src="images/dice6.png">
       </div>
 
